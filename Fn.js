@@ -5,7 +5,7 @@ var waitForElement = function (selector, callback) {
        callback();
    } else {
        setTimeout(function () {
-           waitForEl(selector, callback);
+           waitForElement(selector, callback);
        }, 100);
    }
 };
